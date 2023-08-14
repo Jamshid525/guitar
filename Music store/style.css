@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+.header {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(/image/bg__photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 250px;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list__item {
+    display: flex;
+    align-items: center;
+}
+
+.item__link {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+.item__link {
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item__link {
+    padding-left: 34px;
+}
+
+.nav__text {
+    margin-left: 104px;
+    letter-spacing: 0.12px;
+}
+
+.nav__text p {
+    color: #fff;
+}
+
+.nav__end {
+    display: flex;
+    flex-direction: column;
+    width: 1264px;
+    height: 280px;
+    z-index: 1;
+    border-radius: 10px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav__end p {
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+.p {
+    text-transform: uppercase;
+}
+
+.p1 {
+    margin-top: -30px;
+}
+
+.p2 {
+    margin-top: -10px;
+}
+
+.photo__2 {
+    background-image: url(/image/bg__photo--2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken, normal;
+    background-color: #ab0433;
+    position: absolute;
+    bottom: -100px;
+    left: 10%;
+    right: 10%;
+}
+
+.nav__btn {
+    position: relative;
+    border-radius: 32px;
+    background: #FF753A;
+    border: none;
+
+}
+
+.nav__btn p {
+    color: #fff;
+    margin: 2px 20px 2px 20px;
+    text-transform: uppercase;
+}
+
+.newProduct {
+    display: flex;
+    flex-direction: column;
+    padding: 0 8%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.newProduct__Header {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.boxHeader {
+    margin-top: 70px;
+    margin-bottom: -25px;
+    align-items: normal;
+    margin-left: 40px;
+}
+
+
+.newProduct__Header h1 {
+    color: #505050;
+}
+
+.newProduct__Header p {
+    color: #fff;
+}
+
+.newProduct__Header span {
+    width: 100px;
+    height: 3px;
+    background-color: #AB0433;
+}
+
+.newProduct__Header .s {
+    background-color: #fff;
+}
+
+
+.newProductBoxs {
+    display: flex;
+    gap: 32px;
+}
+
+.newProductBoxs .newProductBox {
+    width: 400px;
+    box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.05), 0px 2px 4px 0px rgba(28, 5, 77, 0.10);
+    border-radius: 6px;
+}
+
+.newProductBox .img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    background: radial-gradient(138.81% 138.29% at 1.22% 1.08%, #FBFBFB 0%, #D3D3D3 100%);
+}
+
+.newProductBox img {
+    width: 314px;
+    height: 260px;
+    transform: translateY(-30px);
+}
+
+.newProductBox_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+}
+
+.newProductBox_bottom div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newProductBox_bottom button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #505050;
+    cursor: pointer;
+}
+
+.newProductBox_bottom button h5 {
+    color: #505050;
+}
+
+.popularfind {
+    height: 665px;
+    background: #ECECEC;
+}
+
+.newProductBox .imgp {
+    background: none;
+}
+
+.gearProduct {
+    display: flex;
+    flex-direction: column;
+    padding: 0 8%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.gearProductBox {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 30px;
+}
+
+.gearProductBoxs {
+    background-color: #252525;
+    border-radius: 10px;
+}
+
+.gearProductBoxs .gearProductBox__bottom h4 {
+    color: #fff;
+    margin-left: 25px;
+}
+
+.gearProductBoxs .gearProductBox__bottom p {
+    color: #C4C4C4;
+    margin-left: 25px;
+}
+
+.boxs__bg {
+    background-color: #EAEAEA;
+}
+
+.boxs__bg .gearProductBox__bottom h4 {
+    color: #000;
+}
+
+.box__bottom {
+    margin-bottom: 42px;
+}
+
+.infoBox {
+    display: flex;
+    background-color: #505050;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 250px;
+}
+
+.box1 {
+    display: flex;
+    margin-left: 100px;
+
+}
+
+.boxItem {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.item {
+    margin-right: 48px;
+}
+
+.itemLink {
+    list-style: none;
+}
+
+.itemLink a {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 13px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    align-items: flex-end;
+    margin-top: 70px;
+
+}
+
+.boxImg {
+    display: flex;
+    gap: 10px;
+}
+
+.footer {
+    display: flex;
+    background-color: #000;
+}
+
+.footer p {
+    color: #fff;
+    margin-left: 125px;
+}
+
+@media screen and (max-width: 769px) {
+    .header {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .list__item .item__link {
+        display: none;
+    }
+
+    .nav__text {
+        width: 311px;
+        height: 114px;
+        align-items: center;
+        margin-left: 220px;
+    }
+
+    .nav__text p {
+        color: #FFF;
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        
+    }
+
+    .nav__end {
+        width: 90%;
+        margin: 0;
+    }
+
+    .photo__2 {
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        bottom: -150px;
+    }
+
+    .newProduct {
+        padding: 0;
+    }
+
+    .newProductBoxs {
+        flex-direction: column;
+    }
+    .width{
+        width: 100%;
+        height: 1716px;
+    }
+    .margin{
+        margin-top: -50px;
+    }
+
+    .gearProductBox {
+        flex-direction: column;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .infoBox {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box1{
+        align-items: center;
+    }
+
+    .box2 {
+        margin: auto;
+    }
+
+    .boxHeader {
+        align-items: center;
+        margin: auto;
+        margin-top: 37px;
+        margin-bottom: -20px;
+    }
+
+    .boxItem {
+        align-content: center;
+        margin-left: -90px;
+    }
+    .item{
+        text-align: center;
+    }
+    .itemLink{
+        margin-bottom: 5px;
+    }
+
+    .gearProductBoxs {
+        width: 327px;
+    }
+
+    .img img {
+        width: 327px;
+    }
+
+    .footer {
+        align-items: center;
+    }
+    .footer p{
+        text-align: center;
+        margin-left: 320px;
+    }
+}
