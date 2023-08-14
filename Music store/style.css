@@ -359,6 +359,9 @@ body {
         width: 90%;
         margin: 0;
     }
+    .nav__btn{
+        margin-top: -5px;
+    }
 
     .photo__2 {
         position: absolute;
