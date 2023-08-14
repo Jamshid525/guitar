@@ -341,7 +341,7 @@ body {
         width: 311px;
         height: 114px;
         align-items: center;
-        margin-left: 220px;
+   
     }
 
     .nav__text p {
@@ -434,6 +434,5 @@ body {
     }
     .footer p{
         text-align: center;
-        margin-left: 320px;
     }
 }
